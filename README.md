@@ -1,30 +1,41 @@
-# App development
+#  Trust Notes dApp - Valeria's Notes 
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+**Trust Notes** is a simple decentralized notes application built with **Next.js** and deployable on **Vercel**.  
+It integrates with the **Intuition Wallet** and uses the **$TTRUST token** as a gating mechanism.  
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/promiseamaechi16-7789s-projects/v0-app-development)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/mzXJMwbOFH3)
+Users must hold a minimum balance of $TTRUST tokens in their wallet to create notes, ensuring that every piece of information carries weight and accountability. In future versions, notes can also be staked with $TRUST to increase their visibility and reputation on-chain.  
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+##  Features
+-  **Wallet Connect** – Sign in with your Intuition (EVM-compatible) wallet.  
+-  **Token-Gated Access** – Only users holding $TTRUST can create notes.  
+-  **Notes App** – Create, edit, and delete personal notes.  
+-  **Blockchain Integration** – $TTRUST balance check + placeholder smart contract call for staking.  
+-  **Deployable on Vercel** – Lightweight, serverless-friendly.  
 
-## Deployment
+---
 
-Your project is live at:
+##  How to Use
+1. Connect your Intuition Wallet using the **Connect Wallet** button.  
+2. The app checks your $TTRUST balance.  
+   - If you meet the minimum, you can create notes.  
+   - If not, you’ll be prompted to acquire more $TRUST.  
+3. Add new notes using the **+** button.  
+4. Your notes are stored locally (future support for Supabase/IPFS coming).  
 
-**[https://vercel.com/promiseamaechi16-7789s-projects/v0-app-development](https://vercel.com/promiseamaechi16-7789s-projects/v0-app-development)**
+---
 
-## Build your app
+##  Roadmap
+-  Token balance check for $TTRUST  
+-  On-chain staking for note creation  
+-  Social curation (endorse or challenge notes)  
+-  Reputation badges & NFT-based proof of authorship  
 
-Continue building your app on:
+---
 
-**[https://v0.app/chat/projects/mzXJMwbOFH3](https://v0.app/chat/projects/mzXJMwbOFH3)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+##  Deployment
+- Clone this repo  
+- Install dependencies  
+  ```bash
+  npm install
