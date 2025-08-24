@@ -1,4 +1,5 @@
 #  Trust Notes dApp - Valeria's Notes 
+# 👉 **[Live Project Link](https://valerias-trust-notes.vercel.app/)**  -Click Link
 
 **Trust Notes** is a simple decentralized notes application built with **Next.js** and deployable on **Vercel**.  
 It integrates with the **Intuition Wallet** and uses the **$TTRUST token** as a gating mechanism.  
